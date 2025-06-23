@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    color: #fff;
+    background-color: #160430;
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+}
+
+.container {
+    width: 1400px;
+    margin: 0 auto;
+    background: url('/img/moon.jpg') no-repeat left;
+    background-size: contain;
+    height: 100vh;
+    padding: 30px 0;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo_text {
+    margin-left: 25px;
+}
+
+.logo_text h1 {
+    font-size: 25px;
+    font-weight: 500;
+}
+
+.logo_text span {
+    float: right;
+    margin-top: -12px;
+    font-size: 14px;
+    font-weight: 400;
+    letter-spacing: 5px;
+}
+
+.logo img {
+    max-width: 200px;
+}
+
+.main {
+    margin-left: 50px;
+}
+
+.main > h1 {
+    position: absolute;
+    bottom: 30px;
+    max-width: 450px;
+    font-size: 50px;
+    line-height: 55px;
+    text-transform: uppercase;
+}
+
+.tx_color {
+    color: #AE69FF;
+}
+
+.login {
+    float: right;
+    margin-top: 140px;
+}
+
+.login h1 {
+    font-size: 77px;
+    font-weight: 7  00;
+    text-transform: uppercase;
+}
+
+.login label {
+    font-size: 15px;
+    font-weight: 500;
+    display: block;
+    margin: 10px 0;
+}
+
+.login input {
+    padding: 20px 50px;
+    list-style: none;
+    background: #261046;
+    border-radius: 10px;
+    color: #fff;
+    outline: none;
+    border: none;    
+    width: 400px;
+    z-index: 2;
+    position: relative;
+}
+
+.login img {
+    position: absolute;
+    z-index: 3;
+    width: 27px;
+    right: 5px;
+}
+
+
+.login input::placeholder {
+    color: #fff;
+}
