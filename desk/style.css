@@ -75,6 +75,7 @@ img {
 .login {
     float: right;
     margin-top: 140px;
+    position: relative;
 }
 
 .login h1 {
@@ -100,17 +101,52 @@ img {
     border: none;    
     width: 400px;
     z-index: 2;
-    position: relative;
 }
 
-.login img {
+.login > img {
     position: absolute;
     z-index: 3;
     width: 27px;
-    right: 5px;
+    top: 177px;
+    left: 12px;
 }
 
+.log_btn {
+    display: block;
+    margin: 20px 0;
+    padding: 20px 30px;
+    width: 400px;
+    background: #501794;
+    outline: none;
+    border-radius: 20px;
+    color: #fff;
+    border: 0;
+    cursor: pointer;
+    font-size: 22px;
+    font-weight: 600;
+}
 
 .login input::placeholder {
     color: #fff;
+}
+
+.log_hr {
+    background: #727272;
+    border: 0;
+    height: 0.6px;
+    margin-bottom: 25px;
+    margin-top: 30px;
+}
+
+.login p {
+    color: #B6B6B6;
+    font-size: 12px;
+}
+
+.log_img {
+    padding: 10px 90px;
+    border-radius: 10px;
+    background: #3B2063;
+    margin: 10px 0;
+    cursor: pointer;
 }
